@@ -1,0 +1,7 @@
+pipeline{
+node {
+         stage ('Checkout SCM'){
+                    git branch: 'master',url: 'https://github.com/poornimakumar/odoo.git'
+         }
+         }
+         
