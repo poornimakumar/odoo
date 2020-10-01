@@ -4,4 +4,5 @@ node {
                     git branch: 'master',url: 'https://github.com/poornimakumar/odoo.git'
          }
          }
+}
          
